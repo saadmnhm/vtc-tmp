@@ -1,5 +1,10 @@
+import useAnimationObserver from '../useAnimationObserver';
+
+
 
 export default function Home() {
+
+  useAnimationObserver();
 
     return (
         <div>
@@ -134,7 +139,7 @@ export default function Home() {
 
             </header>
 
-            <section className="main-slider">
+            <section className="main-slider animation-element slide-left">
                 <div className="slider-box">
                     <div className="slide">
                         <div className="image-layer slider2" ></div>
@@ -151,60 +156,60 @@ export default function Home() {
                 </div>
             </section>
             
-            <section className="story-section">
-		<div className="auto-container">
-			<div className="row clearfix">
-				
-				<div className="content-column col-lg-8 col-md-12 col-sm-12">
-					<div className="inner-column">
-						<h2>Welcome to the <span className="color">MyLogistics</span> And <span className="color">Transportation</span></h2>
-						<div className="bold-text">We provide the best suggestions for Logistics and Transposition in town Go beyond logistics, make the world go round and revolutionize business.</div>
-						<div className="text">
-							<p>Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.</p>
-							<p>We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</p>
-						</div>
-					</div>
-				</div>
-				
-				<div className="image-column col-lg-4 col-md-12 col-sm-12">
-					<div className="inner-column">
-						<div className="image">
-							<img src="assets/images/resource/about.jpg" alt="Transportation"/>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-
-				<div className="row clearfix">
-                   <div className="col-lg-4">
-		                   <ul className="list-style-three">
-							<li>4 years material warranty.</li>
-							<li>1000+ projects has been completed.</li>
-							<li>499+ professinals are available.</li>
-						   </ul>
+            <section className="story-section animation-element slide-right">
+                <div className="auto-container">
+                    <div className="row clearfix">
+                        
+                        <div className="content-column col-lg-8 col-md-12 col-sm-12">
+                            <div className="inner-column">
+                                <h2>Welcome to the <span className="color">MyLogistics</span> And <span className="color">Transportation</span></h2>
+                                <div className="bold-text">We provide the best suggestions for Logistics and Transposition in town Go beyond logistics, make the world go round and revolutionize business.</div>
+                                <div className="text">
+                                    <p>Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.</p>
+                                    <p>We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="image-column col-lg-4 col-md-12 col-sm-12">
+                            <div className="inner-column">
+                                <div className="image">
+                                    <img src="assets/images/resource/about.jpg" alt="Transportation"/>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div className="col-lg-4">
-		                   <ul className="list-style-three">
-							<li>15+ awards.</li>
-							<li>Available on 10+ countries. </li>
-							<li>Borderless logistics.</li>
-						   </ul>
-                    </div>
-                    <div className="col-lg-4">
-		                   <ul className="list-style-three">
-							<li>A world-class port.</li>
-							<li>Endless possibilities.</li>
-							<li>Happiness delivered.</li>
-						   </ul>
-                    </div>
-                          
 
-            </div>
-		</div>
-	</section>
+                        <div className="row clearfix">
+                        <div className="col-lg-4">
+                                <ul className="list-style-three">
+                                    <li>4 years material warranty.</li>
+                                    <li>1000+ projects has been completed.</li>
+                                    <li>499+ professinals are available.</li>
+                                </ul>
+                            </div>
+                            <div className="col-lg-4">
+                                <ul className="list-style-three">
+                                    <li>15+ awards.</li>
+                                    <li>Available on 10+ countries. </li>
+                                    <li>Borderless logistics.</li>
+                                </ul>
+                            </div>
+                            <div className="col-lg-4">
+                                <ul className="list-style-three">
+                                    <li>A world-class port.</li>
+                                    <li>Endless possibilities.</li>
+                                    <li>Happiness delivered.</li>
+                                </ul>
+                            </div>
+                                
 
-        <section className="welcome-section">
+                    </div>
+                </div>
+            </section>
+
+            <section className="welcome-section  animation-element slide-left">
                 <div className="auto-container">
                     
                     <div className="title-box">
@@ -261,94 +266,92 @@ export default function Home() {
                                 
 
                     </div>
-                    </div>
+                </div>
             </section>
 
-
-<section class="contact-form-section">
-		<div class="auto-container">
-			<div class="sec-title">
-				<h2>HAPPY TO HELP YOU</h2>
-				<div class="text">You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.</div>
-			</div>
-			
-			<div class="row clearfix">
-				
-
-                <div class="info-column col-lg-5 col-md-12 col-sm-12">
-                    <div class="inner-column">
+            <section class="contact-form-section animation-element slide-right">
+                <div class="auto-container">
+                    <div class="sec-title">
+                        <h2>HAPPY TO HELP YOU</h2>
+                        <div class="text">You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.</div>
+                    </div>
+                    
+                    <div class="row clearfix">
                         
 
-                        <ul class="contact-info-list">
-                            <li>
-                            <strong>
-                            You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.
-                            </strong></li>
-                        </ul>
-                        <ul class="contact-info-list">
-                            <li>
-                                <span class="icon flaticon-map"></span><strong> Address : </strong><a href="#">123, A-Wing, Mumbai India - 123456.</a></li>
-                            <li>
-                                <span class="icon flaticon-phone-call"></span><strong> Phone : </strong><a href="tel:12345678910">1234 567 8910</a></li>
-                            <li><span class="icon flaticon-email"></span><strong> Email : </strong><a href="mailto:demo@example.com">demo@example.com</a></li>
-                        </ul>
-                       <ul class="info-list">
-                       
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                        <div class="info-column col-lg-5 col-md-12 col-sm-12">
+                            <div class="inner-column">
                                 
-                       </ul>
+
+                                <ul class="contact-info-list">
+                                    <li>
+                                    <strong>
+                                    You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.
+                                    </strong></li>
+                                </ul>
+                                <ul class="contact-info-list">
+                                    <li>
+                                        <span class="icon flaticon-map"></span><strong> Address : </strong><a href="#">123, A-Wing, Mumbai India - 123456.</a></li>
+                                    <li>
+                                        <span class="icon flaticon-phone-call"></span><strong> Phone : </strong><a href="tel:12345678910">1234 567 8910</a></li>
+                                    <li><span class="icon flaticon-email"></span><strong> Email : </strong><a href="mailto:demo@example.com">demo@example.com</a></li>
+                                </ul>
+                            <ul class="info-list">
+                            
+                                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                                <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                        
+                            </ul>
+                                
+                            </div>
+                        </div>
+                        <div class="form-column col-lg-7 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                
+                                <div class="contact-form">
+                                        
+                                    <form method="post" action="contact.php" id="contact-form" novalidate="novalidate">
+                                        <div class="row clearfix">
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                                <input type="text" name="name" placeholder="Name" required=""/>
+                                            </div>
+                                            
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                                <input type="text" name="email" placeholder="Email" required=""/>
+                                            </div>
+                                            
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                                <input type="text" name="subject" placeholder="Subject" required=""/>
+                                            </div>
+
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                                <input type="text" name="phone" placeholder="Phone" required=""/>
+                                            </div>
+                                            
+                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                <textarea name="message" placeholder="Message"></textarea>
+                                            </div>
+                                            
+                                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="txt">Send Message</span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
                         
                     </div>
+                    
                 </div>
-				<div class="form-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						
-						<div class="contact-form">
-								
-							<form method="post" action="contact.php" id="contact-form" novalidate="novalidate">
-								<div class="row clearfix">
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="name" placeholder="Name" required=""/>
-									</div>
-									
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="email" placeholder="Email" required=""/>
-									</div>
-									
-									<div class="form-group col-lg-6 col-md-6 col-sm-12">
-										<input type="text" name="subject" placeholder="Subject" required=""/>
-									</div>
-
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" name="phone" placeholder="Phone" required=""/>
-                                    </div>
-									
-									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									
-									<div class="form-group col-lg-12 col-md-12 col-sm-12">
-										<button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="txt">Send Message</span></button>
-									</div>
-								</div>
-							</form>
-						</div>
-						
-					</div>
-				</div>
-				
-				
-				
-			</div>
-			
-		</div>
-	</section>
+            </section>
             
-
-            <section className="featured-section backimg2" >
+            <section className="featured-section backimg2 animation-element slide-left" >
                 <div className="auto-container">
                     <div className="title-box">
                         <h2>How we <span className="color">work</span>, our working <span className="color">process</span> </h2>
@@ -421,7 +424,7 @@ export default function Home() {
                 </div>
             </section>
             
-            <section className="services-section-two">
+            <section className="services-section-two animation-element slide-right">
                 <div className="auto-container">
                     <div className="sec-title">
                         <h2>Our Excellent <span className="color">Services</span></h2>
@@ -516,8 +519,7 @@ export default function Home() {
                 </div>
             </section>
             
-
-            <section class="story-section">
+            <section class="story-section animation-element slide-left">
                 <div class="auto-container">
                     <div class="row clearfix">
                         
@@ -570,121 +572,121 @@ export default function Home() {
                 </div>
             </section>
 
-            <section class="interior-section style-three">
-            <div class="auto-container">
-                <div class="inner-container">
-                    <div class="row clearfix">
-                        
-                        <div class="image-column col-lg-4 col-md-12 col-sm-12">
-                            <div class="inner-column">
-                                <div class="image">
-                                    <img src="assets/images/resource/about2.jpg" alt="cargoservice"/>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="content-column col-lg-8 col-md-12 col-sm-12">
-                            <div class="inner-column">
-                                <h2>Why Choose Us for <span class="color">Logistics</span> &amp; <span class="color">Transportation</span></h2>
-                                <div class="text">Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.
-                                        We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</div>
-                                <div class="row clearfix">
-                                
-                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
-                                        <div class="block-inner">
-                                            <div class="icon-box">
-                                                <span class="icon flaticon-answer"></span>
-                                            </div>
-                                            <h3>Professional Team</h3>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
-                                        <div class="block-inner">
-                                            <div class="icon-box">
-                                                <span class="icon flaticon-award-1"></span>
-                                            </div>
-                                            <h3>Assure Quality</h3>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
-                                        <div class="block-inner">
-                                            <div class="icon-box">
-                                                <span class="icon flaticon-call"></span>
-                                            </div>
-                                            <h3>24/7 Support</h3>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="counter-section style-two">
+            <section class="interior-section style-three animation-element slide-right">
                 <div class="auto-container">
-                
-                <div className="fact-counter">
-                    <div className="row clearfix">
-                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '0ms', animationName: 'fadeInLeft'}}>
-                                <div className="content">
-                                    <div className="count-outer count-box counted">
-                                        <span className="count-text" data-speed="2500" data-stop="25">25</span> Year's
+                    <div class="inner-container">
+                        <div class="row clearfix">
+                            
+                            <div class="image-column col-lg-4 col-md-12 col-sm-12">
+                                <div class="inner-column">
+                                    <div class="image">
+                                        <img src="assets/images/resource/about2.jpg" alt="cargoservice"/>
                                     </div>
-                                    <h4 className="counter-title">Material Warranty</h4>
                                 </div>
                             </div>
+                            
+                            <div class="content-column col-lg-8 col-md-12 col-sm-12">
+                                <div class="inner-column">
+                                    <h2>Why Choose Us for <span class="color">Logistics</span> &amp; <span class="color">Transportation</span></h2>
+                                    <div class="text">Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.
+                                            We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</div>
+                                    <div class="row clearfix">
+                                    
+                                        <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                            <div class="block-inner">
+                                                <div class="icon-box">
+                                                    <span class="icon flaticon-answer"></span>
+                                                </div>
+                                                <h3>Professional Team</h3>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                            <div class="block-inner">
+                                                <div class="icon-box">
+                                                    <span class="icon flaticon-award-1"></span>
+                                                </div>
+                                                <h3>Assure Quality</h3>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                            <div class="block-inner">
+                                                <div class="icon-box">
+                                                    <span class="icon flaticon-call"></span>
+                                                </div>
+                                                <h3>24/7 Support</h3>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '300ms', animationName: 'fadeInLeft'}}>
-                                <div className="content">
-                                    <div className="count-outer count-box alternate counted">
-                                        <span className="count-text" data-speed="3000" data-stop="2200">2200</span>+
+            <section class="counter-section style-two animation-element slide-left">
+                    <div class="auto-container">
+                    
+                    <div className="fact-counter">
+                        <div className="row clearfix">
+                            <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '0ms', animationName: 'fadeInLeft'}}>
+                                    <div className="content">
+                                        <div className="count-outer count-box counted">
+                                            <span className="count-text" data-speed="2500" data-stop="25">25</span> Year's
+                                        </div>
+                                        <h4 className="counter-title">Material Warranty</h4>
                                     </div>
-                                    <h4 className="counter-title">Order Completed</h4>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '600ms', animationName: 'fadeInLeft'}}>
-                                <div className="content">
-                                    <div className="count-outer count-box counted">
-                                        <span className="count-text" data-speed="3000" data-stop="300">300</span>+
+                            <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '300ms', animationName: 'fadeInLeft'}}>
+                                    <div className="content">
+                                        <div className="count-outer count-box alternate counted">
+                                            <span className="count-text" data-speed="3000" data-stop="2200">2200</span>+
+                                        </div>
+                                        <h4 className="counter-title">Order Completed</h4>
                                     </div>
-                                    <h4 className="counter-title">Team Members</h4>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '900ms', animationName: 'fadeInLeft'}}>
-                                <div className="content">
-                                    <div className="count-outer count-box counted">
-                                        <span className="count-text" data-speed="2500" data-stop="20">20</span> Days
+
+                            <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '600ms', animationName: 'fadeInLeft'}}>
+                                    <div className="content">
+                                        <div className="count-outer count-box counted">
+                                            <span className="count-text" data-speed="3000" data-stop="300">300</span>+
+                                        </div>
+                                        <h4 className="counter-title">Team Members</h4>
                                     </div>
-                                    <h4 className="counter-title">Delivery</h4>
+                                </div>
+                            </div>
+                            
+                            <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '900ms', animationName: 'fadeInLeft'}}>
+                                    <div className="content">
+                                        <div className="count-outer count-box counted">
+                                            <span className="count-text" data-speed="2500" data-stop="20">20</span> Days
+                                        </div>
+                                        <h4 className="counter-title">Delivery</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                    
-                </div>
-        </section>
+                        
+                    </div>
+            </section>
 
 
 
-            <section className="news-section">
+            <section className="news-section animation-element slide-right">
                 <div className="auto-container">
                     <div className="sec-title">
                         <h2 className="white">Media / <span className="color">News</span></h2>
@@ -745,7 +747,7 @@ export default function Home() {
                 </div>
             </section>
             
-            <section className="call-to-action-section backimg1" >
+            <section className="call-to-action-section backimg1 animation-element slide-left" >
                 <div className="auto-container">
                     <div className="row clearfix">
                     <div className="col-lg-8">
@@ -757,7 +759,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <footer className="main-footer">
+            <footer className="main-footer animation-element slide-right">
                 <div className="auto-container">
                     <div className="widgets-section">
                         <div className="row clearfix">
