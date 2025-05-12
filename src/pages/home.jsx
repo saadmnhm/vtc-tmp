@@ -1,37 +1,5 @@
-import { useEffect } from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
-    const bannerSettings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000
-    };
-    
-    const testimonialSettings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: { slidesToShow: 2 }
-            },
-            {
-                breakpoint: 768,
-                settings: { slidesToShow: 1 }
-            }
-        ]
-    };
 
     return (
         <div>
@@ -183,6 +151,58 @@ export default function Home() {
                 </div>
             </section>
             
+            <section className="story-section">
+		<div className="auto-container">
+			<div className="row clearfix">
+				
+				<div className="content-column col-lg-8 col-md-12 col-sm-12">
+					<div className="inner-column">
+						<h2>Welcome to the <span className="color">MyLogistics</span> And <span className="color">Transportation</span></h2>
+						<div className="bold-text">We provide the best suggestions for Logistics and Transposition in town Go beyond logistics, make the world go round and revolutionize business.</div>
+						<div className="text">
+							<p>Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.</p>
+							<p>We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div className="image-column col-lg-4 col-md-12 col-sm-12">
+					<div className="inner-column">
+						<div className="image">
+							<img src="assets/images/resource/about.jpg" alt="Transportation"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+				<div className="row clearfix">
+                   <div className="col-lg-4">
+		                   <ul className="list-style-three">
+							<li>4 years material warranty.</li>
+							<li>1000+ projects has been completed.</li>
+							<li>499+ professinals are available.</li>
+						   </ul>
+                    </div>
+                    <div className="col-lg-4">
+		                   <ul className="list-style-three">
+							<li>15+ awards.</li>
+							<li>Available on 10+ countries. </li>
+							<li>Borderless logistics.</li>
+						   </ul>
+                    </div>
+                    <div className="col-lg-4">
+		                   <ul className="list-style-three">
+							<li>A world-class port.</li>
+							<li>Endless possibilities.</li>
+							<li>Happiness delivered.</li>
+						   </ul>
+                    </div>
+                          
+
+            </div>
+		</div>
+	</section>
 
         <section className="welcome-section">
                 <div className="auto-container">
@@ -244,6 +264,88 @@ export default function Home() {
                     </div>
             </section>
 
+
+<section class="contact-form-section">
+		<div class="auto-container">
+			<div class="sec-title">
+				<h2>HAPPY TO HELP YOU</h2>
+				<div class="text">You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.</div>
+			</div>
+			
+			<div class="row clearfix">
+				
+
+                <div class="info-column col-lg-5 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        
+
+                        <ul class="contact-info-list">
+                            <li>
+                            <strong>
+                            You can give us a call, drop us an email or book a one-to-one appointment, we are here to help you and detangle your journey. We are looking forward to hearing from you.
+                            </strong></li>
+                        </ul>
+                        <ul class="contact-info-list">
+                            <li>
+                                <span class="icon flaticon-map"></span><strong> Address : </strong><a href="#">123, A-Wing, Mumbai India - 123456.</a></li>
+                            <li>
+                                <span class="icon flaticon-phone-call"></span><strong> Phone : </strong><a href="tel:12345678910">1234 567 8910</a></li>
+                            <li><span class="icon flaticon-email"></span><strong> Email : </strong><a href="mailto:demo@example.com">demo@example.com</a></li>
+                        </ul>
+                       <ul class="info-list">
+                       
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                
+                       </ul>
+                        
+                    </div>
+                </div>
+				<div class="form-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column">
+						
+						<div class="contact-form">
+								
+							<form method="post" action="contact.php" id="contact-form" novalidate="novalidate">
+								<div class="row clearfix">
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="name" placeholder="Name" required=""/>
+									</div>
+									
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="email" placeholder="Email" required=""/>
+									</div>
+									
+									<div class="form-group col-lg-6 col-md-6 col-sm-12">
+										<input type="text" name="subject" placeholder="Subject" required=""/>
+									</div>
+
+                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <input type="text" name="phone" placeholder="Phone" required=""/>
+                                    </div>
+									
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									
+									<div class="form-group col-lg-12 col-md-12 col-sm-12">
+										<button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="txt">Send Message</span></button>
+									</div>
+								</div>
+							</form>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
+		</div>
+	</section>
             
 
             <section className="featured-section backimg2" >
@@ -414,240 +516,173 @@ export default function Home() {
                 </div>
             </section>
             
-            <section className="project-section">
-                <div className="auto-container">
-                    <div className="title-box">
-                        <h2  className="white">Our Latest <span className="color">Projects</span></h2>
-                    </div>
-                </div>
-                
-                <div className="outer-container">
-                    
-                    <div className="sortable-masonry">
-                        
-                        <div className="filters clearfix">
-                            
-                            <ul className="filter-tabs filter-btns text-center clearfix">
-                                <li className="active filter" data-role="button" data-filter=".all">All Projects</li>
-                                <li className="filter" data-role="button" data-filter=".residential">Warehouse</li>
-                                <li className="filter" data-role="button" data-filter=".commercial">Commercial</li>
-                                <li className="filter" data-role="button" data-filter=".hospital">Transportaion</li>
-                                <li className="filter" data-role="button" data-filter=".office">Multimodel</li>
-                            </ul>
-                            
-                        </div>
-                        
-                        <div className="items-container row clearfix">
-                        
-                            <div className="gallery-item large-block masonry-item all hospital commercial">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/1.jpg" alt="Warehouse" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Warehouse</a></h3>
-                                                    <a href="assets/images/gallery/1.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item small-block masonry-item all hospital commercial">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/2.jpg" alt="Commercial" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Transportation</a></h3>
-                                                    <a href="assets/images/gallery/2.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item small-block masonry-item all residential office commercial">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/3.jpg" alt="Transportaion" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Packaging</a></h3>
-                                                    <a href="assets/images/gallery/3.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item small-block masonry-item all commercial">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/4.jpg" alt="Multimodel" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Cargo</a></h3>
-                                                    <a href="assets/images/gallery/4.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item large-block masonry-item all hospital office residential">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/7.jpg" alt="shipping"/>
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Logistics</a></h3>
-                                                    <a href="assets/images/gallery/7.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item small-block masonry-item all residential">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/5.jpg" alt="cargo" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Packaging</a></h3>
-                                                    <a href="assets/images/gallery/5.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                            <div className="gallery-item small-block masonry-item all hospital office">
-                                <div className="inner-box">
-                                    <figure className="image-box">
-                                        <img src="assets/images/gallery/6.jpg" alt="Multimodel" />
-                                        <div className="overlay-box">
-                                            <div className="overlay-inner">
-                                                <div className="content">
-                                                    <h3><a href="projects-fullwidth.html">Warehouse</a></h3>
-                                                    <a href="assets/images/gallery/6.jpg" data-fancybox="gallery-1" data-caption="" className="link"><span className="icon flaticon-magnifying-glass-1"></span></a>
-                                                    <a href="projects-fullwidth.html" className="link"><span className="icon flaticon-unlink"></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                
-                    <div className="more-projects">
-                        <a href="projects-classic.html" className="projects">View All Projects</a>
-                    </div>
-                
-                </div>
-            </section>
-            
-            
-            
 
-            
-            
-            
-
-            <section className="testimonial-section">
-                <div className="auto-container">
-                    <div className="sec-title-two centered">
-                        <h2>What our <span className="color">client say</span></h2>
-                        <div className="title-text">Just Look What Our Clients Say.</div>
+            <section class="story-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        
+                        <div class="content-column col-lg-8 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <h2>Welcome to the <span class="color">MyLogistics</span> And <span class="color">Transportation</span></h2>
+                                <div class="bold-text">We provide the best suggestions for Logistics and Transposition in town Go beyond logistics, make the world go round and revolutionize business.</div>
+                                <div class="text">
+                                    <p>Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.</p>
+                                    <p>We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="image-column col-lg-4 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <div class="image">
+                                    <img src="assets/images/resource/about.jpg" alt="Transportation"/>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    
-                    <div className="testimonial-carousel owl-carousel owl-theme">
-                        
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="content">
-                                    <div className="image-outer">
-                                        <div className="image">
-                                            <img src="assets/images/resource/author-1.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <h3>Pranil</h3>
-                                    <div className="title">Awosome</div>
-                                    <div className="text">“Working with on a daily basis is a pleasure, based on their efficiency when it comes to transporting both our finished and returned goods in a timely and secure manner.”</div>
-                                </div>
+
+                        <div class="row clearfix">
+                        <div class="col-lg-4">
+                                <ul class="list-style-three">
+                                    <li>4 years material warranty.</li>
+                                    <li>1000+ projects has been completed.</li>
+                                    <li>499+ professinals are available.</li>
+                                </ul>
                             </div>
-                        </div>
-                        
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="content">
-                                    <div className="image-outer">
-                                        <div className="image">
-                                            <img src="assets/images/resource/author-2.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <h3>Pranil</h3>
-                                    <div className="title">Nice</div>
-                                    <div className="text">“Since we started working with, we've seen our supply chain improve considerably. It is vital that our components and generators arrive safely to our customers,they have delivered on their promises.”</div>
-                                </div>
+                            <div class="col-lg-4">
+                                <ul class="list-style-three">
+                                    <li>15+ awards.</li>
+                                    <li>Available on 10+ countries. </li>
+                                    <li>Borderless logistics.</li>
+                                </ul>
                             </div>
-                        </div>
-                        
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="content">
-                                    <div className="image-outer">
-                                        <div className="image">
-                                            <img src="assets/images/resource/author-1.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <h3>Pranil</h3>
-                                    <div className="title">Awosome</div>
-                                    <div className="text">“As always, once again came through for us when the shipment had to be there. I know I can always count on you and I can go home and let you handle it. That is priceless. Thanks again.”</div>
-                                </div>
+                            <div class="col-lg-4">
+                                <ul class="list-style-three">
+                                    <li>A world-class port.</li>
+                                    <li>Endless possibilities.</li>
+                                    <li>Happiness delivered.</li>
+                                </ul>
                             </div>
-                        </div>
-                        
-                        <div className="testimonial-block">
-                            <div className="inner-box">
-                                <div className="content">
-                                    <div className="image-outer">
-                                        <div className="image">
-                                            <img src="assets/images/resource/author-2.jpg" alt=""/>
-                                        </div>
-                                    </div>
-                                    <h3>Pranil</h3>
-                                    <div className="title">Nice</div>
-                                    <div className="text">“My team and I appreciate the way that you are always on the ball and willing to go out of your way to help get us our material in time to prevent our lines from going down. Nice Job!”</div>
-                                </div>
-                            </div>
-                        </div>
-                        
+                                
+
                     </div>
                 </div>
             </section>
+
+            <section class="interior-section style-three">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="row clearfix">
+                        
+                        <div class="image-column col-lg-4 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <div class="image">
+                                    <img src="assets/images/resource/about2.jpg" alt="cargoservice"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-column col-lg-8 col-md-12 col-sm-12">
+                            <div class="inner-column">
+                                <h2>Why Choose Us for <span class="color">Logistics</span> &amp; <span class="color">Transportation</span></h2>
+                                <div class="text">Mylogistics is a Leading Provider of Quality Packers And Movers in world. With our Experience of over 25+ Years in the Industry, the company is highly skilled and is equipped with the best of facilities to match all High Quality Moving Standards.
+                                        We constantly delivering the best is taken care of with the help of our Products Durability, Products Comfort and Products Attractiveness.We offer a wide range of Moving And Packing, logistics, transportation Upholestery Services in all over the world.</div>
+                                <div class="row clearfix">
+                                
+                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                        <div class="block-inner">
+                                            <div class="icon-box">
+                                                <span class="icon flaticon-answer"></span>
+                                            </div>
+                                            <h3>Professional Team</h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                        <div class="block-inner">
+                                            <div class="icon-box">
+                                                <span class="icon flaticon-award-1"></span>
+                                            </div>
+                                            <h3>Assure Quality</h3>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="interior-block col-lg-4 col-md-4 col-sm-12">
+                                        <div class="block-inner">
+                                            <div class="icon-box">
+                                                <span class="icon flaticon-call"></span>
+                                            </div>
+                                            <h3>24/7 Support</h3>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="counter-section style-two">
+                <div class="auto-container">
+                
+                <div className="fact-counter">
+                    <div className="row clearfix">
+                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '0ms', animationName: 'fadeInLeft'}}>
+                                <div className="content">
+                                    <div className="count-outer count-box counted">
+                                        <span className="count-text" data-speed="2500" data-stop="25">25</span> Year's
+                                    </div>
+                                    <h4 className="counter-title">Material Warranty</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '300ms', animationName: 'fadeInLeft'}}>
+                                <div className="content">
+                                    <div className="count-outer count-box alternate counted">
+                                        <span className="count-text" data-speed="3000" data-stop="2200">2200</span>+
+                                    </div>
+                                    <h4 className="counter-title">Order Completed</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '600ms', animationName: 'fadeInLeft'}}>
+                                <div className="content">
+                                    <div className="count-outer count-box counted">
+                                        <span className="count-text" data-speed="3000" data-stop="300">300</span>+
+                                    </div>
+                                    <h4 className="counter-title">Team Members</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div className="inner wow fadeInLeft animated" style={{visibility: 'visible', animationDuration: '1500ms', animationDelay: '900ms', animationName: 'fadeInLeft'}}>
+                                <div className="content">
+                                    <div className="count-outer count-box counted">
+                                        <span className="count-text" data-speed="2500" data-stop="20">20</span> Days
+                                    </div>
+                                    <h4 className="counter-title">Delivery</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+        </section>
+
+
 
             <section className="news-section">
                 <div className="auto-container">
