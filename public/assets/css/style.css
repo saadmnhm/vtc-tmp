@@ -100,10 +100,10 @@ font-family: "Poppins", sans-serif;
 body {
 	
 	font-size:16px;
-	color:#000;
+	color:white;
 	line-height:1.6em;
 	font-weight:400;
-	background:#ffffff;
+	background: linear-gradient(45deg, rgb(32, 0, 66), rgb(0, 0, 0));
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-family: "Poppins", sans-serif;
@@ -259,7 +259,7 @@ ul,li{
 }
 
 .btn-style-one:hover{
-	color: #242424;
+	color: white;
 }
 
 /* Btn Style Two */
@@ -268,7 +268,7 @@ ul,li{
     display: inline-block;
     font-size: 16px;
     line-height: 1.6;
-    color: #242424;
+    color: white;
     padding: 10px 30px;
     font-weight: 400;
     overflow: hidden;
@@ -288,7 +288,7 @@ ul,li{
     display: inline-block;
     font-size: 15px;
     line-height: 30px;
-    color: #242424;
+    color: white;
     padding: 10px 37px;
     font-weight: bold;
     overflow: hidden;
@@ -523,7 +523,7 @@ ul,li{
 	position:relative;
 	font-size:16px;
 	line-height:24px;
-	color: #242424;
+	color: white;
 	font-weight:400;
 	padding-left:32px;
 	margin-bottom: 12px;
@@ -535,7 +535,7 @@ ul,li{
 	top: 0;
 	font-size: 14px;
 	line-height: 24px;
-	color: #242424;
+	color: white;
 	content: "\f176";
 	font-weight:700;
 	font-family: "Flaticon";
@@ -555,7 +555,7 @@ ul,li{
 	position:relative;
 	font-size:16px;
 	line-height:24px;
-	color: #000;
+	color: white;
 	font-weight:400;
 	margin-bottom: 14px;
 }
@@ -570,7 +570,7 @@ ul,li{
 	position:relative;
 	font-size:16px;
 	line-height:1.6;
-	color: #242424;
+	color: white;
 	font-weight:400;
 	padding-left:32px;
 	margin-bottom: 16px;
@@ -603,7 +603,7 @@ ul,li{
 	position:relative;
 	font-size:20px;
 	line-height:24px;
-	color: #000;
+	color: white;
 	font-weight:700;
 	margin-bottom: 16px;
 	font-family: "Poppins", sans-serif;
@@ -656,30 +656,26 @@ img{
 
 ***/
 
-.scroll-to-top{
-	position:fixed;
-	bottom:20px;
-	right:20px;
-	width:48px;
-	height:48px;
-	color:#ffffff;
-	font-size:20px;
-	line-height:48px;
-	text-align:center;
-	z-index:100;
-	cursor:pointer;
-	background:#1b1a1c;
-	display:none;
-	border-radius: 5px;
-	-webkit-transition:all 300ms ease;
-	-moz-transition:all 300ms ease;
-	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;
-	transition:all 300ms ease;
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #ff6600;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+  z-index: 99;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  display: none;
 }
 
-.scroll-to-top:hover{
-	background:#228dcb;
+.scroll-to-top:hover {
+  background-color: #333333;
+  opacity: 1;
 }
 
 /*** 
@@ -701,7 +697,7 @@ img{
 
 .main-header .header-top{
 	position: relative;
-	background-color:#0f0f0f;
+	background: linear-gradient(45deg, rgb(32, 0, 66), rgb(0, 0, 0));
 	border-bottom:1px solid rgba(255,255,255,0.10);
 }
 
@@ -1220,7 +1216,7 @@ img{
     font-weight: 500;
     padding: 20px 45px;
 	line-height: 23px;
-    background-color: #000000;
+    background-color: white000;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1283,11 +1279,11 @@ img{
 }
 
 .header-style-three .main-menu .navigation > li > a{
-	color:#242424;
+	color:white;
 }
 
 .header-style-three .outer-box .search-box-btn{
-	color:#242424;
+	color:white;
 }
 
 .header-style-four{
@@ -1345,7 +1341,7 @@ img{
 	position: absolute;
     left: 0px;
     top: 10px;
-    color: #000;
+    color: white;
     font-size: 23px;
     line-height: 1em;
 }
@@ -1360,7 +1356,7 @@ img{
 
 .header-style-five .header-upper .info-outer .info-box .text strong{
 	    font-weight: 600;
-    color: #000;
+    color: white;
 	display:block;
 }
 
@@ -1373,7 +1369,7 @@ img{
 }
 .header-style-five .outer-box .btn-box .quote-btn {
     position: relative;
-    color: #000;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     padding: 20px 45px;
@@ -1795,7 +1791,7 @@ img{
 .sec-title h2{
 	position: relative;
 	display: block;
-	color: #242424;
+	color: white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -1803,7 +1799,7 @@ img{
 
 .sec-title .text{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	line-height:1.9em;
 	margin-top:12px;
@@ -1845,7 +1841,7 @@ img{
 .sec-title-two h2{
 	position: relative;
 	display: block;
-	color: #242424;
+	color: white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -1863,7 +1859,7 @@ img{
 
 .sec-title-two .title-text{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:18px;
 	line-height:1.8em;
 	margin-top:5px;
@@ -1978,7 +1974,7 @@ img{
 
 .search-popup .search-form fieldset{
 	position:relative;
-	border:5px solid #000;
+	border:5px solid white;
 	-webkit-border-radius:12px;
 	-ms-border-radius:12px;
 	-o-border-radius:12px;
@@ -2359,7 +2355,7 @@ img{
 
 .main-footer{
 	position:relative;
-	background-color:#242424;
+	background-color:black;
 }
 
 .main-footer .widgets-section{
@@ -2665,7 +2661,7 @@ img{
 .services-section{
 	position:relative;
 	padding:85px 0px 60px;
-	background-color:#000;
+	background-color:white;
 }
 
 .services-section .title-box{
@@ -2819,7 +2815,6 @@ img{
 .services-section-two{
 	position:relative;
 	padding:90px 0px 70px;
-	background-color:#f2f0f8;
 }
 
 .service-block-two{
@@ -2915,7 +2910,7 @@ img{
 
 .service-block-two .inner-box .content .text{
 	position:relative;
-	color:#000;
+	color:black;
 	font-size:14px;
 	line-height:1.7em;
 	margin-top:12px;
@@ -2935,7 +2930,7 @@ img{
     padding: 5px 20px;
     font-weight: 400;
     overflow: hidden;
-    background-color: #242424;
+    background-color: white;
     text-transform: capitalize;
     font-family: "Poppins", sans-serif;
     -webkit-transition: all 300ms ease;
@@ -3033,7 +3028,7 @@ img{
 	bottom:8px;
 	width:40px;
 	height:40px;
-	color:#000000;
+	color:white000;
 	font-size:16px;
 	text-align:center;
 	line-height:40px;
@@ -3101,7 +3096,7 @@ img{
 .news-section{
 	position:relative;
 	padding:90px 0px 60px;
-	background-color:#000;
+	background-color:white;
 }
 
 .news-section.style-two{
@@ -3122,7 +3117,7 @@ img{
 	position:relative;
 	display:block;
 	overflow:hidden;
-	background-color:#000000;
+	background-color:white000;
 }
 
 .news-block .inner-box .image img{
@@ -3159,13 +3154,13 @@ img{
 
 .news-block .inner-box .lower-content .post-meta li{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:15px;
 	display:inline-block;
 	padding-right:15px;
 	margin-right:15px;
 	line-height:1.3em;
-	border-right:1px solid #242424;
+	border-right:1px solid white;
 }
 
 .news-block .inner-box .lower-content .post-meta li:last-child{
@@ -3176,7 +3171,7 @@ img{
 
 .news-block .inner-box .lower-content .post-meta li span{
 	position:relative;
-	color:#242424;
+	color:white;
 }
 
 .news-block .inner-box .lower-content h3{
@@ -3189,7 +3184,7 @@ img{
 
 .news-block .inner-box .lower-content h3 a{
 	position:relative;
-	color:#242424;
+	color:white;
 	transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -3390,17 +3385,17 @@ img{
 }
 
 .service-block-three.style-two .inner-box .lower-content h3 a{
-	color:#242424;
+	color:white;
 }
 
 .service-block-three.style-two .inner-box .lower-content .text{
-	color:#000;
+	color:white;
 }
 .panel-body p {
     font-size: 16px;
     line-height: 1.6em;
     font-weight: 400;
-    color: #000;
+    color: white;
 }
 /*** 
 
@@ -3444,7 +3439,7 @@ img{
 .interior-section .inner-container{
 	position:relative;
 	z-index:1;
-	background-color:#000;
+	background-color:white;
 }
 
 .interior-section .image-column{
@@ -3513,7 +3508,7 @@ img{
 
 .interior-block .block-inner .icon-box{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:60px;
 	line-height:1em;
 }
@@ -3653,7 +3648,6 @@ section.counter-section.style-one .fact-counter .column {
     margin-bottom: 0px;
 }
 .counter-section.style-two{
-	background-color:#e5e9eb;
 }
 
 .counter-section.style-two:before{
@@ -3663,12 +3657,11 @@ section.counter-section.style-one .fact-counter .column {
 	top:-170px;
 	width:100%;
 	height:170px;
-	background-color:#e5e9eb;
 }
 
 .counter-section.style-two .fact-counter .column .inner .counter-title,
 .counter-section.style-two .fact-counter .column .inner .count-outer{
-	color:#242424;
+	color:white;
 }
 
 /*** 
@@ -3703,7 +3696,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .banner-section .form-column .form-box h2{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size: 24px;
     font-weight: 400;
     line-height: 1.3em;
@@ -3739,7 +3732,7 @@ section.counter-section.style-one .fact-counter .column {
 	bottom:0px;
 	padding:18px 30px;
 	display:inline-block;
-	background-color:#000000;
+	background-color:white000;
 }
 
 .banner-section .content-column .content h3{
@@ -3766,7 +3759,7 @@ section.counter-section.style-one .fact-counter .column {
 	font-size:16px;
 	font-style:normal;
 	line-height:25px;
-	color:#000;
+	color:white;
 	padding:10.5px 20px;
 	background:#ffffff;
 	border-radius:0px;
@@ -3849,7 +3842,7 @@ section.counter-section.style-one .fact-counter .column {
 	font-size:15px;
 	padding:10px 20px;
 	background:#ffffff;
-	color:#000;
+	color:white;
 	border-radius:0px;
 	border:1px solid #dddede;
 	transition:all 500ms ease;
@@ -3935,7 +3928,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .mission-section .content-column h2{
 	position:relative;
-	color:#242424;
+	color:white;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -3944,7 +3937,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .mission-section .content-column .bold-text{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:22px;
 	line-height:1.6em;
 	margin-bottom:22px;
@@ -3953,7 +3946,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .mission-section .content-column .text{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	line-height:1.8em;
 	margin-bottom:22px;
@@ -3961,7 +3954,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .mission-section .content-column h3{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:22px;
 	font-weight:400;
 	margin-bottom:22px;
@@ -3974,7 +3967,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .mission-section .content-column .mission-list li{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	margin-bottom:5px;
 }
@@ -4054,7 +4047,7 @@ section.counter-section.style-one .fact-counter .column {
 	top:0px;
 	right:0px;
 	bottom:182px;
-	background-color:#000;
+	background-color:white;
 }
 
 .team-section .sec-title .text{
@@ -4169,7 +4162,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .team-block .inner-box .lower-content h3{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
@@ -4178,7 +4171,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .team-block .inner-box .lower-content h3 a{
 	position:relative;
-	color:#242424;
+	color:white;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -4192,7 +4185,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .team-block .inner-box .lower-content .designation{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	margin-top:5px;
 	line-height:1.3em;
@@ -4247,7 +4240,7 @@ section.counter-section.style-one .fact-counter .column {
 	width:100%;
 	line-height:28px;
 	padding:10px 25px;
-	color:#000;
+	color:white;
 	height:48px;
 	font-size:16px;
 	border-radius:3px;
@@ -4324,7 +4317,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .contact-form-section .info-column .contact-info-list li{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	margin-bottom:4px;
 	line-height:2em;
@@ -4332,7 +4325,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .contact-form-section .info-column .contact-info-list li a{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 }
 
@@ -4343,7 +4336,7 @@ section.counter-section.style-one .fact-counter .column {
 
 .contact-form-section .info-column .contact-info-list li strong{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:20px;
 	font-family: "Poppins", sans-serif;
 }
@@ -4399,7 +4392,7 @@ position: relative;
 
 .welcome-section .title-box h2{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:30px;
 	line-height:1.4em;
 	padding-bottom:25px;
@@ -4427,7 +4420,7 @@ position: relative;
 
 .welcome-section .content-column h2{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:30px;
 	font-weight:400;
 	line-height:1.3em;
@@ -4435,7 +4428,7 @@ position: relative;
 
 .welcome-section .content-column .text{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	font-weight:400;
 	line-height:1.8em;
@@ -4484,7 +4477,7 @@ position: relative;
 	z-index:99;
 	width:80px;
 	height: 80px;
-	color: #242424;
+	color: white;
 	font-weight:400;
 	font-size:24px;
 	text-align: center;
@@ -4527,12 +4520,12 @@ position: relative;
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, #000000 100%);
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, #000000 100%);
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0) 0%, #000000 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)), color-stop(100, #000000));
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, #000000 100%);
-	background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, #000000 100%);
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, white000 100%);
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, white000 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0) 0%, white000 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0)), color-stop(100, white000));
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, white000 100%);
+	background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, white000 100%);
 }
 
 .page-title .auto-container{
@@ -4624,7 +4617,7 @@ font-weight: 500;
 
 .story-section .content-column .inner-column h2{
 	position:relative;
-	color:#0e1322;
+	color:white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -4632,7 +4625,7 @@ font-weight: 500;
 
 .story-section .content-column .inner-column .bold-text{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:22px;
 	font-weight:400;
 	line-height:1.4em;
@@ -4647,7 +4640,7 @@ font-weight: 500;
 
 .story-section .content-column .inner-column .text p{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	line-height:1.9em;
 	margin-bottom:20px;
@@ -4730,7 +4723,7 @@ font-weight: 500;
 
 .testimonials-page-section .title-box h2{
 	position:relative;
-	color:#0e1322;
+	color:white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -4738,7 +4731,7 @@ font-weight: 500;
 
 .testimonials-page-section .title-box .text{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:22px;
 	font-weight:400;
 	line-height:1.3em;
@@ -4761,7 +4754,7 @@ section.faq-page-section {
 
 section.faq-page-section .title-box h2 {
     position: relative;
-    color: #0e1322;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -4775,7 +4768,7 @@ section.faq-page-section .title-box {
 }
 section.faq-page-section .title-box .text {
     position: relative;
-    color: #242424;
+    color: white;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.3em;
@@ -4801,7 +4794,7 @@ section.faq-page-section .title-box .text {
 }
 
 .services-page-section  .service-block-three .inner-box .image a:before{
-	background-color:#000000;
+	background-color:white000;
 }
 
 .services-page-section.style-two{
@@ -4847,7 +4840,7 @@ section.faq-page-section .title-box .text {
 
 .services-detail .inner-box h2{
 	position:relative;
-	color:#0e1322;
+	color:white;
 	font-size:34px;
 	font-weight:700;
 	line-height:1.3em;
@@ -4855,7 +4848,7 @@ section.faq-page-section .title-box .text {
 
 .services-detail .inner-box .bold-text{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:20px;
 	line-height:1.5em;
 	margin-top:0px;
@@ -4869,7 +4862,7 @@ section.faq-page-section .title-box .text {
 
 .services-detail .inner-box .text p{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	line-height:1.8em;
 	margin-bottom:20px;
@@ -4894,7 +4887,7 @@ section.faq-page-section .title-box .text {
 
 .services-detail .inner-box .text h3{
 	position:relative;
-	color:#0e1322;
+	color:white;
 	font-size:24px;
 	font-weight:700;
 	line-height:1.4em;
@@ -4903,7 +4896,7 @@ section.faq-page-section .title-box .text {
 
 .services-detail .inner-box .text h4{
 	position:relative;
-	color:#0e1322;
+	color:white;
 	font-size:28px;
 	font-weight:700;
 	line-height:1.4em;
@@ -4970,7 +4963,7 @@ section.faq-page-section .title-box .text {
 
 .services-list li.active a,
 .services-list li:hover a{
-	color:#242424;
+	color:white;
 	border-color:#228dcb;
 	background-color:#228dcb;
 }
@@ -5040,7 +5033,7 @@ section#light {
 .portfolio-page-section{
 	position:relative;
 	padding:80px 0px 80px;
-	background-color:#000;
+	background-color:white;
 }
 
 .portfolio-page-section .outer-container{
@@ -5139,7 +5132,7 @@ section#light.portfolio-page-section .filters li {
 	font-size:15px;
 	width:100%;
 	height:52px;
-	color:#000;
+	color:white;
 	font-weight:400;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -5151,7 +5144,7 @@ section#light.portfolio-page-section .filters li {
 
 .sidebar .search-box .form-group textarea::-webkit-input-placeholder,
 .sidebar .search-box .form-group input::-webkit-input-placeholder{
-	color:#000;
+	color:white;
 }
 
 .sidebar .search-box .form-group button{
@@ -5177,7 +5170,7 @@ section#light.portfolio-page-section .filters li {
 
 .sidebar-title h2{
     font-size: 22px;
-    color: #242424;
+    color: white;
     font-weight: 400;
     line-height: 1.3em;
 	display:inline-block;
@@ -5309,7 +5302,7 @@ section#light.portfolio-page-section .filters li {
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#242424;
+	color:white;
 	font-size:56px;
 	line-height:1em;
 	margin-bottom:15px;
@@ -5354,7 +5347,7 @@ section#light.portfolio-page-section .filters li {
 
 .shop-section .title-box h2{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -5544,7 +5537,7 @@ section#light.portfolio-page-section .filters li {
 }
 
 .shop-item .inner-box .lower-content h3 a{
-	color:#242424;
+	color:white;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -5569,7 +5562,7 @@ section#light.portfolio-page-section .filters li {
     display: inline-block;
     font-size: 13px;
     line-height: 30px;
-    color: #242424;
+    color: white;
     padding: 8px 26px;
     font-weight: 600;
     overflow: hidden;
@@ -5639,7 +5632,7 @@ section#light.portfolio-page-section .filters li {
 }
 
 .shop-item-two .inner-box .lower-content h3 a{
-	color:#242424;
+	color:white;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -5768,13 +5761,13 @@ section#light.portfolio-page-section .filters li {
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
-	color:#242424;
+	color:white;
 	padding-bottom:20px;
 }
 
 .product-details .basic-details .text{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:16px;
 	line-height:1.8em;
 	padding:25px 0px;
@@ -5785,7 +5778,7 @@ section#light.portfolio-page-section .filters li {
 
 .product-details .basic-details .price{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:18px;
 	font-weight:500;
 	margin-bottom:30px;
@@ -5795,7 +5788,7 @@ section#light.portfolio-page-section .filters li {
 .product-details .basic-details .price span{
 	font-weight:700;
 	font-size:22px;
-	color:#242424;
+	color:white;
 	margin-left:10px;
 	font-family: 'Lato', sans-serif;
 }
@@ -5830,7 +5823,7 @@ section#light.portfolio-page-section .filters li {
 
 .product-details .basic-details .item-quantity .field-label{
 	float:left;
-	color:#242424;
+	color:white;
 	font-weight:600;
 	font-size:18px;
 	line-height:40px;
@@ -5857,7 +5850,7 @@ section#light.portfolio-page-section .filters li {
 }
 
 .product-details .basic-details .cart-btn:hover{
-	background: #242424;
+	background: white;
 	color: #ffffff;
 }
 
@@ -5948,7 +5941,7 @@ section#light.portfolio-page-section .filters li {
 
 .shop-single .product-details .prod-tabs .tab-btns .tab-btn:hover,
 .shop-single .product-details .prod-tabs .tab-btns .tab-btn.active-btn{
-	color:#242424;
+	color:white;
 	border-color:#e2e2e2;
 	background:#ffffff;
 }
@@ -5977,7 +5970,7 @@ section#light.portfolio-page-section .filters li {
 .shop-single .product-details .prod-tabs .tabs-content .tab .content p{
 	position:relative;
 	font-size:16px;
-	color:#000;
+	color:white;
 	line-height:1.7em;
 	margin-bottom:25px;
 }
@@ -6257,7 +6250,7 @@ section#light.portfolio-page-section .filters li {
 
 .related-products .title-box h2{
 	position:relative;
-	color:#242424;
+	color:white;
 	font-size:35px;
 	font-weight:700;
 	display:inline-block;
@@ -6325,7 +6318,7 @@ section#light.portfolio-page-section .filters li {
 	padding:15px 30px;
 	font-weight:500;
 	font-size:16px;
-	color:#242424;
+	color:white;
 	border-right:1px solid #ebebeb;
 	font-family: "Poppins", sans-serif;
 	text-transform: capitalize;
@@ -6383,7 +6376,7 @@ section#light.portfolio-page-section .filters li {
 
 .cart-table tbody tr .sub-total{
 	font-weight:400;
-	color:#000;
+	color:white;
 	font-size:17px;
 	font-family: "Poppins", sans-serif;
 }
@@ -6417,7 +6410,7 @@ section#light.portfolio-page-section .filters li {
 
 .cart-table tbody tr td{
 	vertical-align:middle;
-	color:#000;
+	color:white;
 	font-size:17px;
 	border-left:1px solid #ebebeb;
 }
@@ -6435,7 +6428,7 @@ section#light.portfolio-page-section .filters li {
 .cart-table tbody tr td .prod-title{
 	position:relative;
 	font-size:17px;
-	color:#000;
+	color:white;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -6544,7 +6537,7 @@ section#light.portfolio-page-section .filters li {
 .cart-section .totals-table li h3{
 	position:relative;
 	font-weight:600;
-	color:#242424;
+	color:white;
 	font-size:18px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -6561,14 +6554,14 @@ section#light.portfolio-page-section .filters li {
 	float:left;
 	line-height:24px;
 	width:50%;
-	color:#242424;
+	color:white;
 	font-size:17px;
 	text-transform:capitalize;
 }
 
 .cart-section .totals-table li .col:last-child{
 	text-align:right;
-	color:#000;
+	color:white;
 }
 
 .cart-section .totals-table .total .price{
@@ -6609,7 +6602,7 @@ section#light.portfolio-page-section .filters li {
 
 .checkout-page .title-box h2{
 	position:relative;
-	color:#242424;
+	color:white;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -6637,7 +6630,7 @@ section#light.portfolio-page-section .filters li {
 	line-height:1.3;
 	padding:18px 28px;
 	background:#f9f9f9;
-	color:#000;
+	color:white;
 	font-size:16px;
 	font-weight:500;
 	border:1px solid #ebebeb;
@@ -6645,7 +6638,7 @@ section#light.portfolio-page-section .filters li {
 }
 
 .checkout-page .default-links li a{
-	color:#242424;
+	color:white;
 	text-decoration:underline;
 }
 
@@ -6677,7 +6670,7 @@ section#light.portfolio-page-section .filters li {
 	line-height:24px;
 	margin-bottom:8px;
 	text-transform:capitalize;
-	color:#000;	
+	color:white;	
 	font-size:15px;
 	font-weight:600;
 }
@@ -6685,7 +6678,7 @@ section#light.portfolio-page-section .filters li {
 .shop-form .form-group .field-label sup{
 	position:relative;
 	top:0px;
-	color:#000;	
+	color:white;	
 	font-size:16px;
 }
 
@@ -6762,7 +6755,7 @@ section#light.portfolio-page-section .filters li {
 
 .shop-order-box .order-list li{
 	position:relative;
-	color:#000;
+	color:white;
 	font-size:15px;
 	font-weight:500;
 	margin-bottom:12px;
@@ -6779,7 +6772,7 @@ section#light.portfolio-page-section .filters li {
 }
 
 .shop-order-box .order-list li span.dark{
-	color:#242424;
+	color:white;
 	font-weight:700;
 }
 
@@ -6811,7 +6804,7 @@ section#light.portfolio-page-section .filters li {
 	font-weight:600 !important;
 	text-transform:capitalize;
 	letter-spacing:1px;
-	color:#000;
+	color:white;
 	cursor:pointer;
 	font-size:15px;
 }
@@ -6819,7 +6812,7 @@ section#light.portfolio-page-section .filters li {
 .checkout-page .payment-options li .radio-option label strong{
 	font-weight:500;
 	display: inline-block;
-	color:#000;
+	color:white;
 	font-size:15px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -6917,7 +6910,7 @@ span.color {
 
 .counter-section.style-three .fact-counter .column .inner .count-outer {
     position: relative;
-    color: #000;
+    color: white;
 	font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -6928,7 +6921,7 @@ span.color {
     font-size: 18px;
     font-weight: 400;
     margin-top: 14px;
-    color: #000;
+    color: white;
 }
 
 div#dark .list-style-three li {
@@ -6946,7 +6939,7 @@ div#dark .list-style-three li {
 section#light.project-section .filters li {
     position: relative;
     display: inline-block;
-    color: #000;
+    color: white;
     cursor: pointer;
     font-size: 20px;
     font-weight: 400;
@@ -7064,7 +7057,7 @@ section#light.project-section .filters li {
 	line-height:24px;
 	padding:10px 15px;
 	font-size:15px;
-	    color: #000;
+	    color: white;
 }
 
 .pricing-column .theme-btn{
@@ -7102,7 +7095,7 @@ section#light.project-section .filters li {
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 500;
-    color: #000;
+    color: white;
 	line-height: 1.3;
 	font-family: "Poppins", sans-serif;
 }
@@ -7211,3 +7204,89 @@ section#light.project-section .filters li {
     
 
     
+
+
+/* Contact Form Styling */
+.contact-form {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.contact-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="url"],
+.contact-form select,
+.contact-form textarea {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    padding: 12px 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    transition: all 300ms ease;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+    padding-top: 15px;
+}
+
+.contact-form .option-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.contact-form .checkbox-row,
+.contact-form .radio-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.contact-form .checkbox-label,
+.contact-form .radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.contact-form .checkbox-label input,
+.contact-form .radio-label input {
+    margin-right: 5px;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+.contact-form .theme-btn {
+    cursor: pointer;
+}
+
+.custom-select-box {
+    -webkit-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
